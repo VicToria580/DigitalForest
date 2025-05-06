@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta charset="UTF-8"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeFest 2024 - День Программирования!</title>
+    <title>CodeFest 2024 - Г„ГҐГ­Гј ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГї!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +17,10 @@
             background-color: #f0f0f0;
             color: #333;
             line-height: 1.6;
-            overflow-x: hidden; /* Предотвращает горизонтальную прокрутку */
+            overflow-x: hidden; /* ГЏГ°ГҐГ¤Г®ГІГўГ°Г Г№Г ГҐГІ ГЈГ®Г°ГЁГ§Г®Г­ГІГ Г«ГјГ­ГіГѕ ГЇГ°Г®ГЄГ°ГіГІГЄГі */
         }
 
-        /*Общие стили*/
+        /*ГЋГЎГ№ГЁГҐ Г±ГІГЁГ«ГЁ*/
         .cta-button {
             background-color: #00BF8F;
             color: #fff;
@@ -29,7 +30,7 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
             display: inline-block;
-            text-decoration: none; /*Удаляет подчеркивание ссылки*/
+            text-decoration: none; /*Г“Г¤Г Г«ГїГҐГІ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГҐ Г±Г±Г»Г«ГЄГЁ*/
         }
 
             .cta-button:hover {
@@ -39,7 +40,7 @@
         .container {
             width: 80%;
             margin: 0 auto;
-            max-width: 1200px; /* Ограничение максимальной ширины контента */
+            max-width: 1200px; /* ГЋГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГҐ Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© ГёГЁГ°ГЁГ­Г» ГЄГ®Г­ГІГҐГ­ГІГ  */
             padding: 20px;
         }
 
@@ -47,14 +48,14 @@
             padding: 60px 0;
         }
 
-        /*Стили для шапки и навигации*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї ГёГ ГЇГЄГЁ ГЁ Г­Г ГўГЁГЈГ Г¶ГЁГЁ*/
         header {
-            background: linear-gradient(to right, #00BF8F, #001510); /* Градиентный фон */
+            background: linear-gradient(to right, #00BF8F, #001510); /* ГѓГ°Г Г¤ГЁГҐГ­ГІГ­Г»Г© ГґГ®Г­ */
             color: #fff;
             padding: 20px 0;
             text-align: center;
             position: relative;
-            overflow: hidden; /* Обрезает выходящие за границы элементы */
+            overflow: hidden; /* ГЋГЎГ°ГҐГ§Г ГҐГІ ГўГ»ГµГ®Г¤ГїГ№ГЁГҐ Г§Г  ГЈГ°Г Г­ГЁГ¶Г» ГЅГ«ГҐГ¬ГҐГ­ГІГ» */
         }
 
         nav {
@@ -70,7 +71,7 @@
         }
 
             .logo span {
-                color: #ffd700; /* Желтый акцент */
+                color: #ffd700; /* Г†ГҐГ«ГІГ»Г© Г ГЄГ¶ГҐГ­ГІ */
             }
 
         nav ul {
@@ -94,7 +95,7 @@
                         color: #ffd700;
                     }
 
-        /*Стили для Hero-секции*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї Hero-Г±ГҐГЄГ¶ГЁГЁ*/
         .hero {
             padding: 80px 0;
         }
@@ -109,7 +110,7 @@
                 margin-bottom: 30px;
             }
 
-        /*Стили для секций содержимого*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї Г±ГҐГЄГ¶ГЁГ© Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГЈГ®*/
         .section h2 {
             font-size: 2.5em;
             margin-bottom: 30px;
@@ -120,7 +121,7 @@
             text-align: justify;
         }
 
-        /*Стили для сетки расписания*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї Г±ГҐГІГЄГЁ Г°Г Г±ГЇГЁГ±Г Г­ГЁГї*/
         .schedule-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -143,7 +144,7 @@
                 margin-bottom: 10px;
             }
 
-        /*Стили для сетки спикеров*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї Г±ГҐГІГЄГЁ Г±ГЇГЁГЄГҐГ°Г®Гў*/
         .speakers-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -166,7 +167,7 @@
                 margin-bottom: 10px;
             }
 
-        /*Стили для подвала*/
+        /*Г‘ГІГЁГ«ГЁ Г¤Г«Гї ГЇГ®Г¤ГўГ Г«Г */
         footer {
             background-color: #333;
             color: #fff;
@@ -243,7 +244,7 @@
                 background-color: #00BF8F;
             }
 
-        /* Добавляем адаптивные стили */
+        /* Г„Г®ГЎГ ГўГ«ГїГҐГ¬ Г Г¤Г ГЇГІГЁГўГ­Г»ГҐ Г±ГІГЁГ«ГЁ */
         @media (max-width: 768px) {
             nav {
                 flex-direction: column;
@@ -276,60 +277,60 @@
         <nav>
             <div class="logo">DigitalForest <span>2025</span></div>
             <ul>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#schedule">Расписание</a></li>
-                <li><a href="#speakers">Спикеры</a></li>
-                <li><a href="#register">Регистрация</a></li>
+                <li><a href="#about">ГЋ Г­Г Г±</a></li>
+                <li><a href="#schedule">ГђГ Г±ГЇГЁГ±Г Г­ГЁГҐ</a></li>
+                <li><a href="#speakers">Г‘ГЇГЁГЄГҐГ°Г»</a></li>
+                <li><a href="#register">ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї</a></li>
             </ul>
         </nav>
         <div class="hero">
-            <h1>Отпразднуйте день программирования с DigitalForest!</h1>
-            <p>Присоединяйтесь к крупнейшему IT-событию года. Новые знания и вдохновение ждут вас!</p>
-            <a href="#register" class="cta-button">Зарегистрироваться сейчас!</a>
+            <h1>ГЋГІГЇГ°Г Г§Г¤Г­ГіГ©ГІГҐ Г¤ГҐГ­Гј ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГї Г± DigitalForest!</h1>
+            <p>ГЏГ°ГЁГ±Г®ГҐГ¤ГЁГ­ГїГ©ГІГҐГ±Гј ГЄ ГЄГ°ГіГЇГ­ГҐГ©ГёГҐГ¬Гі IT-Г±Г®ГЎГ»ГІГЁГѕ ГЈГ®Г¤Г . ГЌГ®ГўГ»ГҐ Г§Г­Г Г­ГЁГї ГЁ ГўГ¤Г®ГµГ­Г®ГўГҐГ­ГЁГҐ Г¦Г¤ГіГІ ГўГ Г±!</p>
+            <a href="#register" class="cta-button">Г‡Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ ГІГјГ±Гї Г±ГҐГ©Г·Г Г±!</a>
         </div>
     </header>
 
     <section id="about" class="section">
         <div class="container">
-            <h2>О DigitalForest</h2>
-            <p>DigitalForest - это ежегодное мероприятие, посвященное дню программирования. Мы собираем лучших экспертов, талантливых разработчиков и начинающих программистов, чтобы поделиться знаниями, опытом и вдохновением. </p>
-            <p>В этом году вас ждут увлекательные доклады, интерактивные воркшопы, захватывающий хакатон и море позитивных эмоций! Не упустите шанс стать частью DigitalForest 2025!</p>
+            <h2>ГЋ DigitalForest</h2>
+            <p>DigitalForest - ГЅГІГ® ГҐГ¦ГҐГЈГ®Г¤Г­Г®ГҐ Г¬ГҐГ°Г®ГЇГ°ГЁГїГІГЁГҐ, ГЇГ®Г±ГўГїГ№ГҐГ­Г­Г®ГҐ Г¤Г­Гѕ ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГї. ГЊГ» Г±Г®ГЎГЁГ°Г ГҐГ¬ Г«ГіГ·ГёГЁГµ ГЅГЄГ±ГЇГҐГ°ГІГ®Гў, ГІГ Г«Г Г­ГІГ«ГЁГўГ»Гµ Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГ®Гў ГЁ Г­Г Г·ГЁГ­Г ГѕГ№ГЁГµ ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІГ®Гў, Г·ГІГ®ГЎГ» ГЇГ®Г¤ГҐГ«ГЁГІГјГ±Гї Г§Г­Г Г­ГЁГїГ¬ГЁ, Г®ГЇГ»ГІГ®Г¬ ГЁ ГўГ¤Г®ГµГ­Г®ГўГҐГ­ГЁГҐГ¬. </p>
+            <p>Г‚ ГЅГІГ®Г¬ ГЈГ®Г¤Гі ГўГ Г± Г¦Г¤ГіГІ ГіГўГ«ГҐГЄГ ГІГҐГ«ГјГ­Г»ГҐ Г¤Г®ГЄГ«Г Г¤Г», ГЁГ­ГІГҐГ°Г ГЄГІГЁГўГ­Г»ГҐ ГўГ®Г°ГЄГёГ®ГЇГ», Г§Г ГµГўГ ГІГ»ГўГ ГѕГ№ГЁГ© ГµГ ГЄГ ГІГ®Г­ ГЁ Г¬Г®Г°ГҐ ГЇГ®Г§ГЁГІГЁГўГ­Г»Гµ ГЅГ¬Г®Г¶ГЁГ©! ГЌГҐ ГіГЇГіГ±ГІГЁГІГҐ ГёГ Г­Г± Г±ГІГ ГІГј Г·Г Г±ГІГјГѕ DigitalForest 2025!</p>
         </div>
     </section>
 
     <section id="schedule" class="section">
         <div class="container">
-            <h2>Расписание мероприятий</h2>
+            <h2>ГђГ Г±ГЇГЁГ±Г Г­ГЁГҐ Г¬ГҐГ°Г®ГЇГ°ГЁГїГІГЁГ©</h2>
             <div class="schedule-grid">
                 <div class="schedule-item">
                     <h3>10:00 - 11:00</h3>
-                    <h4>Регистрация</h4>
-                    <p>Начните день с регистрации и знакомства с участниками!</p>
+                    <h4>ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї</h4>
+                    <p>ГЌГ Г·Г­ГЁГІГҐ Г¤ГҐГ­Гј Г± Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГЁ ГЁ Г§Г­Г ГЄГ®Г¬Г±ГІГўГ  Г± ГіГ·Г Г±ГІГ­ГЁГЄГ Г¬ГЁ!</p>
                 </div>
                 <div class="schedule-item">
                     <h3>11:00 - 11:30</h3>
-                    <h4>Доклад о происхождении праздника</h4>
-                    <p>Спикер: Виктория Кокорева</p>
+                    <h4>Г„Г®ГЄГ«Г Г¤ Г® ГЇГ°Г®ГЁГ±ГµГ®Г¦Г¤ГҐГ­ГЁГЁ ГЇГ°Г Г§Г¤Г­ГЁГЄГ </h4>
+                    <p>Г‘ГЇГЁГЄГҐГ°: Г‚ГЁГЄГІГ®Г°ГЁГї ГЉГ®ГЄГ®Г°ГҐГўГ </p>
                 </div>
                 <div class="schedule-item">
                     <h3>11:30 - 13:00</h3>
-                    <h4>Разработка мини-игры</h4>
-                    <p>Ведущий: Азиз Исхаков, опытный разработчик игр.</p>
+                    <h4>ГђГ Г§Г°Г ГЎГ®ГІГЄГ  Г¬ГЁГ­ГЁ-ГЁГЈГ°Г»</h4>
+                    <p>Г‚ГҐГ¤ГіГ№ГЁГ©: ГЂГ§ГЁГ§ Г€Г±ГµГ ГЄГ®Гў, Г®ГЇГ»ГІГ­Г»Г© Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄ ГЁГЈГ°.</p>
                 </div>
                 <div class="schedule-item">
                     <h3>13:00 - 14:00</h3>
-                    <h4>Обед</h4>
-                    <p>Время для отдыха и общения за вкусным обедом.</p>
+                    <h4>ГЋГЎГҐГ¤</h4>
+                    <p>Г‚Г°ГҐГ¬Гї Г¤Г«Гї Г®ГІГ¤Г»ГµГ  ГЁ Г®ГЎГ№ГҐГ­ГЁГї Г§Г  ГўГЄГіГ±Г­Г»Г¬ Г®ГЎГҐГ¤Г®Г¬.</p>
                 </div>
                 <div class="schedule-item">
                     <h3>14:00 - 17:00</h3>
-                    <h4>Создай свой проект!</h4>
-                    <p>Соревнуйтесь с другими командами и разработайте инновационный проект.</p>
+                    <h4>Г‘Г®Г§Г¤Г Г© Г±ГўГ®Г© ГЇГ°Г®ГҐГЄГІ!</h4>
+                    <p>Г‘Г®Г°ГҐГўГ­ГіГ©ГІГҐГ±Гј Г± Г¤Г°ГіГЈГЁГ¬ГЁ ГЄГ®Г¬Г Г­Г¤Г Г¬ГЁ ГЁ Г°Г Г§Г°Г ГЎГ®ГІГ Г©ГІГҐ ГЁГ­Г­Г®ГўГ Г¶ГЁГ®Г­Г­Г»Г© ГЇГ°Г®ГҐГЄГІ.</p>
                 </div>
                 <div class="schedule-item">
                     <h3>17:00 - 18:00</h3>
-                    <h4>Подведение итогов и награждение победителей</h4>
-                    <p>Узнайте, кто стал лучшим в соревновании, и получите ценные призы!</p>
+                    <h4>ГЏГ®Г¤ГўГҐГ¤ГҐГ­ГЁГҐ ГЁГІГ®ГЈГ®Гў ГЁ Г­Г ГЈГ°Г Г¦Г¤ГҐГ­ГЁГҐ ГЇГ®ГЎГҐГ¤ГЁГІГҐГ«ГҐГ©</h4>
+                    <p>Г“Г§Г­Г Г©ГІГҐ, ГЄГІГ® Г±ГІГ Г« Г«ГіГ·ГёГЁГ¬ Гў Г±Г®Г°ГҐГўГ­Г®ГўГ Г­ГЁГЁ, ГЁ ГЇГ®Г«ГіГ·ГЁГІГҐ Г¶ГҐГ­Г­Г»ГҐ ГЇГ°ГЁГ§Г»!</p>
                 </div>
             </div>
         </div>
@@ -337,22 +338,22 @@
 
     <section id="speakers" class="section">
         <div class="container">
-            <h2>Наши ведущие</h2>
+            <h2>ГЌГ ГёГЁ ГўГҐГ¤ГіГ№ГЁГҐ</h2>
             <div class="speakers-grid">
                 <div class="speaker-card">
-                    <img src="images/робот1.jpg" alt="Анна Смирнова">
-                    <h3>Екатерина Смирнова</h3>
-                    <p>Организатор</p>
+                    <img src="images/Г°Г®ГЎГ®ГІ1.jpg" alt="ГЂГ­Г­Г  Г‘Г¬ГЁГ°Г­Г®ГўГ ">
+                    <h3>Г…ГЄГ ГІГҐГ°ГЁГ­Г  Г‘Г¬ГЁГ°Г­Г®ГўГ </h3>
+                    <p>ГЋГ°ГЈГ Г­ГЁГ§Г ГІГ®Г°</p>
                 </div>
                 <div class="speaker-card">
-                    <img src="images/робот2.jpg" alt="Иван Петров">
-                    <h3>Азиз Исхаков</h3>
-                    <p>Опытный разработчик игр</p>
+                    <img src="images/Г°Г®ГЎГ®ГІ2.jpg" alt="Г€ГўГ Г­ ГЏГҐГІГ°Г®Гў">
+                    <h3>ГЂГ§ГЁГ§ Г€Г±ГµГ ГЄГ®Гў</h3>
+                    <p>ГЋГЇГ»ГІГ­Г»Г© Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄ ГЁГЈГ°</p>
                 </div>
                 <div class="speaker-card">
-                    <img src="images/робот3.webp" alt="Елена Сидорова">
-                    <h3>Виктория Кокорева</h3>
-                    <p>Специалист по кибербезопасности</p>
+                    <img src="images/Г°Г®ГЎГ®ГІ3.webp" alt="Г…Г«ГҐГ­Г  Г‘ГЁГ¤Г®Г°Г®ГўГ ">
+                    <h3>Г‚ГЁГЄГІГ®Г°ГЁГї ГЉГ®ГЄГ®Г°ГҐГўГ </h3>
+                    <p>Г‘ГЇГҐГ¶ГЁГ Г«ГЁГ±ГІ ГЇГ® ГЄГЁГЎГҐГ°ГЎГҐГ§Г®ГЇГ Г±Г­Г®Г±ГІГЁ</p>
                 </div>
             </div>
         </div>
@@ -360,74 +361,74 @@
 
     <section id="register" class="section">
         <div class="container">
-            <h2>Регистрация на DigitalForest 2025</h2>
-            <p>Не упустите возможность принять участие в самом масштабном IT-событии года!</p>
-            <button id="open-registration-form" class="cta-button">Зарегистрироваться</button>
+            <h2>ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї Г­Г  DigitalForest 2025</h2>
+            <p>ГЌГҐ ГіГЇГіГ±ГІГЁГІГҐ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГј ГЇГ°ГЁГ­ГїГІГј ГіГ·Г Г±ГІГЁГҐ Гў Г±Г Г¬Г®Г¬ Г¬Г Г±ГёГІГ ГЎГ­Г®Г¬ IT-Г±Г®ГЎГ»ГІГЁГЁ ГЈГ®Г¤Г !</p>
+            <button id="open-registration-form" class="cta-button">Г‡Г Г°ГҐГЈГЁГ±ГІГ°ГЁГ°Г®ГўГ ГІГјГ±Гї</button>
 
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 DigitalForest. Все права защищены.</p>
+        <p>&copy; 2025 DigitalForest. Г‚Г±ГҐ ГЇГ°Г ГўГ  Г§Г Г№ГЁГ№ГҐГ­Г».</p>
     </footer>
 
-    <!-- Регистрационная форма (по умолчанию скрыта) -->
+    <!-- ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГ®Г­Г­Г Гї ГґГ®Г°Г¬Г  (ГЇГ® ГіГ¬Г®Г«Г·Г Г­ГЁГѕ Г±ГЄГ°Г»ГІГ ) -->
     <div id="registration-form" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h2>Регистрация</h2>
+            <h2>ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї</h2>
             <form id="registrationForm">
-                <label for="name">Имя:</label>
-                <input type="text" id="name" value="student"><!--Студент--></option>
-                <!--<option value="developer">Разработчик</option>
-    <option value="designer">Дизайнер</option>
-    <option value="other">Другое</option>
-                <!--<button type="submit">Подтвердить регистрацию</button>-->
-                <button onclick="alert('Спасибо за регистрацию!');" type="submit">Подтвердить регистрацию</button>
+                <label for="name">Г€Г¬Гї:</label>
+                <input type="text" id="name" value="student"><!--Г‘ГІГіГ¤ГҐГ­ГІ--></option>
+                <!--<option value="developer">ГђГ Г§Г°Г ГЎГ®ГІГ·ГЁГЄ</option>
+    <option value="designer">Г„ГЁГ§Г Г©Г­ГҐГ°</option>
+    <option value="other">Г„Г°ГіГЈГ®ГҐ</option>
+                <!--<button type="submit">ГЏГ®Г¤ГІГўГҐГ°Г¤ГЁГІГј Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГѕ</button>-->
+                <button onclick="alert('Г‘ГЇГ Г±ГЁГЎГ® Г§Г  Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГѕ!');" type="submit">ГЏГ®Г¤ГІГўГҐГ°Г¤ГЁГІГј Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГѕ</button>
             </form>
         </div>
     </div>
     <script>
-        // Получаем элементы
+        // ГЏГ®Г«ГіГ·Г ГҐГ¬ ГЅГ«ГҐГ¬ГҐГ­ГІГ»
         const registrationFormModal = document.getElementById("registration-form");
         const openRegistrationButton = document.getElementById("open-registration-form");
         const closeRegistrationButton = document.querySelector(".close-button");
         const registrationForm = document.getElementById("registrationForm");
 
-        // Открытие модального окна
+        // ГЋГІГЄГ°Г»ГІГЁГҐ Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г 
         openRegistrationButton.addEventListener("click", () => {
             registrationFormModal.style.display = "block";
         });
 
-        // Закрытие модального окна
+        // Г‡Г ГЄГ°Г»ГІГЁГҐ Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г 
         closeRegistrationButton.addEventListener("click", () => {
             registrationFormModal.style.display = "none";
         });
 
-        // Закрытие модального окна при клике вне его
+        // Г‡Г ГЄГ°Г»ГІГЁГҐ Г¬Г®Г¤Г Г«ГјГ­Г®ГЈГ® Г®ГЄГ­Г  ГЇГ°ГЁ ГЄГ«ГЁГЄГҐ ГўГ­ГҐ ГҐГЈГ®
         window.addEventListener("click", (event) => {
             if (event.target === registrationFormModal) {
                 registrationFormModal.style.display = "none";
             }
         });
 
-        //Обработка отправки формы (пример, выводит данные в консоль)
+        //ГЋГЎГ°Г ГЎГ®ГІГЄГ  Г®ГІГЇГ°Г ГўГЄГЁ ГґГ®Г°Г¬Г» (ГЇГ°ГЁГ¬ГҐГ°, ГўГ»ГўГ®Г¤ГЁГІ Г¤Г Г­Г­Г»ГҐ Гў ГЄГ®Г­Г±Г®Г«Гј)
         registrationForm.addEventListener("submit", (event) => {
-            event.preventDefault(); // Предотвращаем отправку формы по умолчанию
+            event.preventDefault(); // ГЏГ°ГҐГ¤Г®ГІГўГ°Г Г№Г ГҐГ¬ Г®ГІГЇГ°Г ГўГЄГі ГґГ®Г°Г¬Г» ГЇГ® ГіГ¬Г®Г«Г·Г Г­ГЁГѕ
 
             const name = document.getElementById("name").value;
             const email = document.getElementById("email").value;
             const profession = document.getElementById("profession").value;
 
-            console.log("Имя:", name);
+            console.log("Г€Г¬Гї:", name);
             console.log("Email:", email);
-            console.log("Профессия:", profession);
+            console.log("ГЏГ°Г®ГґГҐГ±Г±ГЁГї:", profession);
 
-            // Здесь можно добавить код для отправки данных на сервер
-            // Например, с помощью fetch API
+            // Г‡Г¤ГҐГ±Гј Г¬Г®Г¦Г­Г® Г¤Г®ГЎГ ГўГЁГІГј ГЄГ®Г¤ Г¤Г«Гї Г®ГІГЇГ°Г ГўГЄГЁ Г¤Г Г­Г­Г»Гµ Г­Г  Г±ГҐГ°ГўГҐГ°
+            // ГЌГ ГЇГ°ГЁГ¬ГҐГ°, Г± ГЇГ®Г¬Г®Г№ГјГѕ fetch API
 
-            registrationFormModal.style.display = "none"; // Закрываем окно после отправки
-            alert("Регистрация прошла успешно!"); //Сообщаем об успешной регистрации
+            registrationFormModal.style.display = "none"; // Г‡Г ГЄГ°Г»ГўГ ГҐГ¬ Г®ГЄГ­Г® ГЇГ®Г±Г«ГҐ Г®ГІГЇГ°Г ГўГЄГЁ
+            alert("ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї ГЇГ°Г®ГёГ«Г  ГіГ±ГЇГҐГёГ­Г®!"); //Г‘Г®Г®ГЎГ№Г ГҐГ¬ Г®ГЎ ГіГ±ГЇГҐГёГ­Г®Г© Г°ГҐГЈГЁГ±ГІГ°Г Г¶ГЁГЁ
         });
     </script>
 
